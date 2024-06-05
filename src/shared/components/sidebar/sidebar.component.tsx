@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom'
 import { SidebarTabs } from '../../models/global-variables'
 import SidebarNavButton from './sidebar-nav-buttons/sidebar-nav-buttons.component'
 import SidebarHeader from './sidebar-header/sidebar-header'
@@ -6,7 +5,7 @@ import HelpCenterComponent from './help-center/help-center.component'
 
 const Sidebar = () => {
   return (
-    <div className='flex flex-row sidebar'>
+    <div>
       <div className='flex flex-column jc-center h-100vh js-sp-between p-32'>
           <div className='flex flex-column ai-center'>
             <SidebarHeader />
@@ -19,8 +18,7 @@ const Sidebar = () => {
             
             <HelpCenterComponent />
         </div>
-        
-        <Outlet></Outlet>
+
     </div>
         
   )

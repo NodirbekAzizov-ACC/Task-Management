@@ -1,0 +1,44 @@
+._notification{
+    position: absolute;
+    top:0;
+    right: 0;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: #FF4D5E;
+    border: 2px solid white;
+}
+
+.notification-icon-wrapper{
+    position: relative;
+    display: inline-block;
+    border: none;
+}
+
+.notification-container{
+    position: relative;
+    border: 1px solid #F5F5F7;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    padding: 14px;
+    background-color: white;
+}
+
+.author-img{
+    object-fit: cover;
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+    width: inherit;
+    height: inherit;
+}
+
+.img-fill{
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+}
