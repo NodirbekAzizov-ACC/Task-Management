@@ -1,0 +1,11 @@
+.navlink{
+    &-active{
+        border-radius: 10px;
+        background-color: #F5F5F7;
+        box-shadow: 0px 2px 2px 2px 2px hsl(0, 0%, 48%);
+    }
+}
+
+.w-112{
+    width: 112px;
+}

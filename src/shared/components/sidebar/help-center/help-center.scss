@@ -1,0 +1,42 @@
+.help{
+  &-center{
+    border: 1px solid red;
+    max-width: 188px;
+    padding-top: 25px;
+  }
+
+  &-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141522;
+    border-radius: 50%;
+    padding: 8px;
+    border: 6px solid white;
+    box-shadow: 
+    0 -2px 5px 0.5px rgba(0, 0, 0, 0.1), 
+    0 -4px 5px 1px rgba(0, 0, 0, 0.05), 
+    0 4px 5px 1px rgba(255, 255, 255, 0.3),
+    0 2px 5px 0.5px rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: -25px
+  }
+
+  &-container{
+    position: relative;
+  }
+
+  &-main{
+    background-color: #141522;
+    border-radius: 10px;
+  }
+
+  &-message{
+    text-align: center;
+    color: white;
+  }
+
+  &-btn{
+    border-radius: 10px;
+  }
+}

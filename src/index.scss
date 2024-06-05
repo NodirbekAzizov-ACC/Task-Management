@@ -1,0 +1,13 @@
+@import "./themes/layout.scss";
+@import "./themes/fonts.scss";
+@import "./themes/color-plate.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
