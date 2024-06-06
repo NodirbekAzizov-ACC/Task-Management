@@ -1,5 +1,5 @@
 import { Route, createRoutesFromElements, createBrowserRouter, RouterProvider, Navigate} from "react-router-dom"
-import DashboardPage from "./pages/home/dashboard-page";
+import DashboardPage from "./pages/dashboard/dashboard-page";
 import TasksPage from "./pages/tasks/tasks-page";
 import MentorsPage from "./pages/mentors/mentors-page";
 import MessagesPage from "./pages/messages/messages-page";
